@@ -27,7 +27,7 @@ h2 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 3px 0 #232931;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4ECCA3;
 }
 
@@ -96,7 +96,7 @@ footer {
 
 }
 span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Lobster', cursive;
