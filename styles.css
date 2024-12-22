@@ -1,0 +1,104 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+h2 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 0 #232931;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+hr {
+  background-color: #0d0d0d;
+  border-style: dotted none none none;
+  border-color: #b6fffa;
+  height: 0px;
+  border-width: 5px;
+  width: 5%;
+  margin: 2rem auto 2rem auto;
+}
+
+.roll-btn {
+  padding: 15px 30px;
+  background-color: #4ECCA3;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  margin-top: 25px;
+}
+
+.roll-btn:hover {
+  background-color: #00B0B9;
+  transform: scale(1.1);
+}
+
+@keyframes diceRoll {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(360deg); }
+  100% { transform: rotate(720deg); }
+}
+
+img {
+  width: 80%;
+}
+
+.rolling {
+  animation: diceRoll 1s ease-in-out;
+}
+
+.roll-btn:active {
+  transform: scale(0.9);
+}
+
+
+footer {
+  font-size: 2rem;
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+span {
+  font-size: 2rem;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+
+}
